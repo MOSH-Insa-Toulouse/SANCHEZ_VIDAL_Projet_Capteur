@@ -11,7 +11,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 - [Arduino](##Arduino)
   - [Bibliothèques](###Bibliotèques)
   - [Notre code Arduino](###Notre-Code-Arduino)
-- [KICAD](##Projet-KICAD)
+- [KICAD](##SectionKICAD)
   - [Placement des composants](###Placement-des-composants)
   - [Sockets KICAD pour les différents composants](###Sockets-KICAD-pour-les-différents-composants)
 - [Application Android apk](##Application-Android-apk)
@@ -288,7 +288,7 @@ and tension values
  }
  ```
 
-## Projet KICAD
+## KICAD <a id="SectionKICAD"></a>
 
 ---
 Le projet sur le logiciel KICAD permet de:
