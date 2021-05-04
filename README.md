@@ -349,14 +349,14 @@ Notre code de l'application (format .aia) est à télécharger [_ici_](https://g
 
 Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur.apk)
 
-#### _Apperçu de l'application_
+#### _Apperçu de l'application une fois téléchargée_
 
 ![app](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png "apperçu de l'application")
 
 ## Banc de test
 
 ---
-Nous avons réalisé un banc de test très "low cost" avec lequel nous avons fait toutes les mesures pour la caractérisation des différents capteurs. Les résultats sont dans notre [_datasheet_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Datasheet.docx)
+Nous avons réalisé un banc de test très "low cost" avec lequel nous avons fait toutes les mesures pour la caractérisation des différents capteurs. Les résultats sont dans notre [_datasheet_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/raw/main/Datasheet.docx)
 
 Protocole du banc de test/ utilisation optimale et conseillée du capteur (90º/-90º):
 Fixer les deux extrémités de la jauge en papier a des surfaces rigides et de longueur suffisante pour permettre de lire les angles sur les notations du support (rapporteur dans ce cas).
