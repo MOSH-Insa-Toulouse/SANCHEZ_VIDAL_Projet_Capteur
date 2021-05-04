@@ -7,7 +7,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 ---
 
 - [Livrables](##Section1)
-- [Description](##Description)
+- [Description](##Section2)
 - [Arduino](##Arduino)
   - [Bibliothèques](###Bibliotèques)
   - [Notre code Arduino](###Notre-Code-Arduino)
@@ -31,7 +31,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 - Protocole de mesure et le programme Arduino pour le banc de test
 - Datasheet du capteur de déformation/ jauge de contrainte
 
-## Description
+## Description <a id="Section2"></a>
 
 ---
 Ce projet a pour but le développement d'un **capteur de déformation mécanique** à base de matériaux peut onéreux ainsi que écoresponsable. Le principe physique qui fait notre projet possible le transport des électrons entre les nanoparticules de graphite, qui lui même, est régi par l'effet tunnel. Ce capteur exploite le lien entre la conduction électrique des électrons et l'espace moyen entre les particules d'un réseau granuleux. En effet, l'éloignement et le rapprochement du réseau induit par un stress mécanique fait varier la **conductivité électrique** de la piste de graphite, puisque la distance inter-particule a été affectée. La déformation de cette dernière induit une variation de résistance électrique réversible et exploitable pour créer une jauge de contrainte. Le **conditionneur** de notre projet est un shield comportant un circuit électrique d'amplificateur transimpédance, ainsi que des interface pour un module bluetooth, un capteur rotatoire, une écran OLED et bien sur, l'entrée analogique de la jauge de contrainte. Ce shield a été déssiné sur **KICAD** et des simulations du circuit transimpédance ont été faits sur **LT SPICE**. Le code principala été réalisé en C++ sur l'**IDE Arduino UNO**. Finalement une application android a été développé sur **MIT App Inventor** pour communiquer et recevoir des données à distance, via bluetooth. Un banc de test a été réalisé avec un rapporteur et les pistes de graphites dessinées sur des feuilles de papier. Un protocole de mesure sera spécifié pour exposer commment nous avons exploité et étudié la réponse de déformation de différents capteurs.
@@ -80,7 +80,7 @@ Notre code Arduino permet de:
 - Affiche les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
 - Gère l'encodeur rotatoire
 
-[_Pour télécharger le code_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/Code%20Arduino)
+[_Pour télécharger le code_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/99f3a97303d053d3fa053065e3f0f4b805357511/Code%20Arduino/programme_final.ino)
 
 ```C++
 #include <Adafruit_SSD1306.h>
