@@ -6,7 +6,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 
 ---
 
-- [Livrables](##Livrables)
+- [Livrables](Section1)
 - [Description](##Description)
 - [Arduino](##Arduino)
   - [Bibliothèques](###Bibliotèques)
@@ -21,7 +21,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 - [Pistes de réflexion](##Pistes-de-réflexion)
 - [Information sur les auteurs](##Information-sur-les-auteurs)
 
-## Livrables
+## Livrables <a id="Section1"></a>
 
 ---
 
