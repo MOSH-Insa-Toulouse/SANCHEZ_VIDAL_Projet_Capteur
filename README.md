@@ -299,27 +299,30 @@ Le projet sur le logiciel KICAD permet de:
 - Interface pour un écran oled
 - Interface pour un encodeur rotatoire
 
+_PCB avec les composants à souder_
+![PCB](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.30.34%20PM.png?token=ASUGY4ZMZM3VWFMAP3FIMOLASFQT6 "imaage PCB avec composants")
+
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/KICAD)
 
 Fichiers créés pour la conception et la simulation du circuit électrique sur le PCB LT SPICE à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/Code%20Arduino)
 
 _Apperçu du Shield PCB (empreinte GERBER)_
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/pdf%20overview.png?token=ASUGY456COZPCW44BZIT3N3ASFLTS "Apperçu du shield PCB en pdf")
+![PCB pdf](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/pdf%20overview.png?token=ASUGY4Z4JQSBNER7TEYWTMLASFQZS "Apperçu du shield PCB en pdf")
 
 ### Placement des composants
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/emplacement%20des%20composants.png?token=ASUGY46XN3JJDSSXHEBXXGLASFMFC "Placement des composants")
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/emplacement%20des%20composants.png?token=ASUGY47PXMTNVC5WTIEAAITASFQ3C "Placement des composants")
 
 ### Sockets KICAD pour les différents composants
 
 - Amplificateur transimpédance
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/ampli%20trans.png?token=ASUGY43XLWNWQ7BLJ2CLEELASFLWY "Amplificateur trnaimpédance")
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/ampli%20trans.png?token=ASUGY44XWCJSPJQ3XEAJQALASFQ4A "Amplificateur trnaimpédance")
 
 - Module Blueetooth
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/module%20bluetooth.png?token=ASUGY4ZREXKJ3A7NZVQPHJTASFLQM "module bluetooth")
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/module%20bluetooth.png?token=ASUGY4YGH65H2DKNWMGS2E3ASFQ5E "module bluetooth")
 
 - Encodeur rotatoire
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/encodeur%20rotatoire.png?token=ASUGY475IJSRC5BGDLE4HODASFLZ4 "encodeur rotqtoire")
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/encodeur%20rotatoire.png?token=ASUGY47GIK6ORHWN75S6WCTASFQ6I "encodeur rotqtoire")
 
 ## Application Android apk
 
@@ -342,7 +345,7 @@ Notre code de l'application (format .aia) est à télécharger [_ici_](https://g
 Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur.apk)
 
 _Apperçu de l'application_
-![alt text]()
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png?token=ASUGY45VD2Q6TI62TDKOWPTASFQTW "apperçu de l'application")
 
 ## Banc de test
 
@@ -356,7 +359,7 @@ Fixer la base de la jauge perpendiculairement à l'axe des 0º et la fin de la z
 Déplacer l'autre extremité par des pas de 10º en balayant de 90º jusqu'à -90º par rapport à l'axe neutre de la base.
 
 _Image du banc de test_
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%2011.42.14%20AM.jpeg?token=ASUGY46JSZ4VDNH7BDYZIETASFJLI "banc de test")
+![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%2011.42.14%20AM.png?token=ASUGY42A42PJPPHJBPNJW4TASFQTQ "banc de test")
 
 ## Pistes de réflexion
 
