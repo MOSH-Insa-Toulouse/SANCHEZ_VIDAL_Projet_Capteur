@@ -309,25 +309,25 @@ Fichiers créés pour la conception et la simulation du circuit électrique sur 
 
 #### _Apperçu du Shield PCB (empreinte GERBER)_
 
-![PCB pdf](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/pdf%20overview.png?token=ASUGY4Z4JQSBNER7TEYWTMLASFQZS "Apperçu du shield PCB en pdf")
+![PCB pdf](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/pdf%20overview.png "Apperçu du shield PCB en pdf")
 
 ### Placement des composants
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/emplacement%20des%20composants.png?token=ASUGY47PXMTNVC5WTIEAAITASFQ3C "Placement des composants")
+![alt text](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/emplacement%20des%20composants.png "Placement des composants")
 
 ### Sockets KICAD pour les différents composants
 
 - Amplificateur transimpédance
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/ampli%20trans.png?token=ASUGY44XWCJSPJQ3XEAJQALASFQ4A "Amplificateur trnaimpédance")
+![alt text](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/ampli%20trans.png "Amplificateur trnaimpédance")
 
 - Module Blueetooth
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/module%20bluetooth.png?token=ASUGY4YGH65H2DKNWMGS2E3ASFQ5E "module bluetooth")
+![alt text](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/module%20bluetooth.png "module bluetooth")
 
 - Encodeur rotatoire
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/encodeur%20rotatoire.png?token=ASUGY47GIK6ORHWN75S6WCTASFQ6I "encodeur rotqtoire")
+![alt text](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/encodeur%20rotatoire.png "encodeur rotqtoire")
 
 ## Application Android apk
 
@@ -351,7 +351,7 @@ Notre code de l'application (format .apk) est à télécharger [_ici_](https://g
 
 #### _Apperçu de l'application_
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png?token=ASUGY45VD2Q6TI62TDKOWPTASFQTW "apperçu de l'application")
+![app](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png "apperçu de l'application")
 
 ## Banc de test
 
@@ -366,7 +366,7 @@ Déplacer l'autre extremité par des pas de 10º en balayant de 90º jusqu'à -9
 
 #### _Image du banc de test_
 
-![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%2011.42.14%20AM.png?token=ASUGY42A42PJPPHJBPNJW4TASFQTQ "banc de test")
+![banc de test](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/77da3085585d26435e430bd8d40fdfa598627142/Media%20README/WhatsApp%20Image%202021-05-04%20at%2011.42.14%20AM.png "banc de test")
 
 ## Pistes de réflexion
 
