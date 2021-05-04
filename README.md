@@ -299,15 +299,15 @@ Le projet sur le logiciel KICAD permet de:
 - Interface pour un écran oled
 - Interface pour un encodeur rotatoire
 
-_PCB avec les composants à souder_
+#### _PCB avec les composants à souder_
 
-![PCB](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.30.34%20PM.png?token=ASUGY4ZMZM3VWFMAP3FIMOLASFQT6 "imaage PCB avec composants")
+![PCB](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/3e0482a74e4f8a15e2c62660e452ac9b22093a1d/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.30.34%20PM.png "imaage PCB avec composants")
 
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/KICAD)
 
 Fichiers créés pour la conception et la simulation du circuit électrique sur le PCB LT SPICE à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/Code%20Arduino)
 
-_Apperçu du Shield PCB (empreinte GERBER)_
+#### _Apperçu du Shield PCB (empreinte GERBER)_
 
 ![PCB pdf](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/pdf%20overview.png?token=ASUGY4Z4JQSBNER7TEYWTMLASFQZS "Apperçu du shield PCB en pdf")
 
@@ -349,7 +349,8 @@ Notre code de l'application (format .aia) est à télécharger [_ici_](https://g
 
 Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur.apk)
 
-_Apperçu de l'application_
+#### _Apperçu de l'application_
+
 ![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png?token=ASUGY45VD2Q6TI62TDKOWPTASFQTW "apperçu de l'application")
 
 ## Banc de test
@@ -363,7 +364,8 @@ Pour ce faire nous devons conserver un carré d'environ 1cm de côté comme prol
 Fixer la base de la jauge perpendiculairement à l'axe des 0º et la fin de la zone d'accroche des pinces en cuivre à 5mm du centre du rapporteur.
 Déplacer l'autre extremité par des pas de 10º en balayant de 90º jusqu'à -90º par rapport à l'axe neutre de la base.
 
-_Image du banc de test_
+#### _Image du banc de test_
+
 ![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%2011.42.14%20AM.png?token=ASUGY42A42PJPPHJBPNJW4TASFQTQ "banc de test")
 
 ## Pistes de réflexion
