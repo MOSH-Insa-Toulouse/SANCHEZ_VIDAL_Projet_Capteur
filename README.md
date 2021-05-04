@@ -305,7 +305,7 @@ Le projet sur le logiciel KICAD permet de:
 
 Projet KICAD avec fichiers formats pdf et format GERBER à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/KICAD)
 
-Fichiers créés pour la conception et la simulation du circuit électrique sur le PCB LT SPICE à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/Code%20Arduino)
+Fichiers créés pour la conception et la simulation du circuit électrique sur le PCB LT SPICE à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/tree/main/Conception%20PCB)
 
 #### _Apperçu du Shield PCB (empreinte GERBER)_
 
@@ -345,9 +345,9 @@ Le site internet de création d'application [_MIT App Inventor_](https://appinve
 
 ### Notre application
 
-Notre code de l'application (format .aia) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur%20(2).aia)
+Notre code de l'application (format .aia) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/raw/main/Application%20apk/Appli_Capteur%20(2).aia)
 
-Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur.apk)
+Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/raw/main/Application%20apk/Appli_Capteur.apk)
 
 #### _Apperçu de l'application une fois téléchargée_
 
