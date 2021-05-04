@@ -350,7 +350,6 @@ Notre code de l'application (format .aia) est à télécharger [_ici_](https://g
 Notre code de l'application (format .apk) est à télécharger [_ici_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/main/Application%20apk/Appli_Capteur.apk)
 
 _Apperçu de l'application_
-
 ![alt text](https://raw.githubusercontent.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/main/Media%20README/WhatsApp%20Image%202021-05-04%20at%204.26.40%20PM.png?token=ASUGY45VD2Q6TI62TDKOWPTASFQTW "apperçu de l'application")
 
 ## Banc de test
