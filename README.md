@@ -1,6 +1,6 @@
 # Projet Capteur Graphite SANCHEZ VIDAL
 
-Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique. De la **conception** jusqu'à la **caractérisation** passant par le **codage**,  toutes les étapes nécessaires d'une jauge de contrainte à base d'une piste de graphite sont détaillé à continuation.
+Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dans l'UF *"Du capteur au banc de Test"* de l'INSA de Toulouse, 4ème année de Génie Physique. De la **conception** jusqu'à la **caractérisation** en passant par le **codage**,  toutes les étapes nécessaires à la fabrication d'une jauge de contrainte à base d'une piste de graphite sont détaillées à continuation.
 
 ## Sommaire
 
@@ -26,7 +26,7 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 ---
 
 - Shield PCB
-- Code Arduino permettant la mesure de la resistance R et la tension, ainsi que le contrôle des fonctionnalités BT, OLED et capteur rotatoire
+- Code Arduino permettant la mesure de la tension (conversion en Ohm), ainsi que le contrôle des fonctionnalités BT, OLED et capteur rotatoire
 - Application android APK réalisé avec MIT APP INVENTOR
 - Protocole de mesure et le programme Arduino pour le banc de test
 - Datasheet du capteur de déformation/ jauge de contrainte
@@ -34,13 +34,13 @@ Ce Git contient les ressources nécessaire pour le projet 2021 qui s'inscrit dan
 ## Description <a id="Section2"></a>
 
 ---
-Ce projet a pour but le développement d'un **capteur de déformation mécanique** à base de matériaux peut onéreux ainsi que écoresponsable. Le principe physique qui fait notre projet possible le transport des électrons entre les nanoparticules de graphite, qui lui même, est régi par l'effet tunnel. Ce capteur exploite le lien entre la conduction électrique des électrons et l'espace moyen entre les particules d'un réseau granuleux. En effet, l'éloignement et le rapprochement du réseau induit par un stress mécanique fait varier la **conductivité électrique** de la piste de graphite, puisque la distance inter-particule a été affectée. La déformation de cette dernière induit une variation de résistance électrique réversible et exploitable pour créer une jauge de contrainte. Le **conditionneur** de notre projet est un shield comportant un circuit électrique d'amplificateur transimpédance, ainsi que des interface pour un module bluetooth, un capteur rotatoire, une écran OLED et bien sur, l'entrée analogique de la jauge de contrainte. Ce shield a été déssiné sur **KICAD** et des simulations du circuit transimpédance ont été faits sur **LT SPICE**. Le code principala été réalisé en C++ sur l'**IDE Arduino UNO**. Finalement une application android a été développé sur **MIT App Inventor** pour communiquer et recevoir des données à distance, via bluetooth. Un banc de test a été réalisé avec un rapporteur et les pistes de graphites dessinées sur des feuilles de papier. Un protocole de mesure sera spécifié pour exposer commment nous avons exploité et étudié la réponse de déformation de différents capteurs.
+Ce projet a pour but le développement d'un **capteur de déformation mécanique** à base de matériaux peu onéreux ainsi qu'écoresponsable. Le principe physique qui fait notre projet possible est le transport des électrons entre les nanoparticules de graphite, qui lui même, est régi par l'effet tunnel. Ce capteur exploite le lien entre la conduction électrique des électrons et l'espace moyen entre les particules d'un réseau granuleux. En effet, l'éloignement et le rapprochement du réseau induit par un effort mécanique fait varier la **conductivité électrique** de la piste de graphite, puisque la distance inter-particule a été affectée. La déformation de cette dernière induit une variation de résistance électrique réversible et exploitable que nous allons utiliser pour créer une jauge de contrainte. Le **conditionneur** de notre projet est un shield comportant un circuit électrique d'amplificateur transimpédance, ainsi que des interface pour un module bluetooth, un capteur rotatoire, une écran OLED et bien sur, l'entrée analogique de la jauge de contrainte. Ce shield a été déssiné sur **KICAD** et des simulations du circuit transimpédance ont été faits sur **LT SPICE**. Le code principal à été réalisé en C++ sur l'**IDE Arduino UNO**. Finalement une application android a été développé sur **MIT App Inventor** pour communiquer et recevoir des données à distance, via bluetooth. Un banc de test a été réalisé avec un rapporteur et les pistes de graphites dessinées sur des feuilles de papier. Un protocole de mesure sera spécifié pour exposer commment nous avons exploité et étudié la réponse de déformation de différents capteurs.
 
 ### Code Arduino
 
 - Mesure la tension de sortie du circuit transimpédance
 - Calcule la résistance du capteur de graphite connaissant la fonction de transfert du conditionneur
-- Envoie la mesure de la tension et de la resistance via Bluetooth sur 1 octet
+- Envoie la mesure de la tension via Bluetooth sur 1 octet
 - Affiche les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
 - Gère l'encodeur rotatoire
 
@@ -71,14 +71,6 @@ Ce projet a pour but le développement d'un **capteur de déformation mécanique
 
 
 ### Notre code arduino
-
-Notre code Arduino permet de:
-
-- Mesure la tension de sortie du circuit transimpédance
-- Calcule la résistance du capteur de graphite connaissant la fonction de transfert du conditionneur
-- Envoie la mesure de la tension et de la resistance via Bluetooth sur 1 octet
-- Affiche les mesures de tension, de résistance et possède un menu pour choisir entre un offset et un gain numérique sur un écran OLED
-- Gère l'encodeur rotatoire
 
 [_Pour télécharger le code_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/blob/99f3a97303d053d3fa053065e3f0f4b805357511/Code%20Arduino/programme_final.ino)
 
@@ -359,6 +351,7 @@ Notre code de l'application (format .apk) est à télécharger [_ici_](https://g
 Nous avons réalisé un banc de test très "low cost" avec lequel nous avons fait toutes les mesures pour la caractérisation des différents capteurs. Les résultats sont dans notre [_datasheet_](https://github.com/MOSH-Insa-Toulouse/SANCHEZ_VIDAL_Projet_Capteur/raw/main/Datasheet.docx)
 
 Protocole du banc de test/ utilisation optimale et conseillée du capteur (90º/-90º):
+Au delà de ces angles la jauge en papier s'abîme et la durée de vie de cette dernière se voit fortement raccourcie.
 Fixer les deux extrémités de la jauge en papier a des surfaces rigides et de longueur suffisante pour permettre de lire les angles sur les notations du support (rapporteur dans ce cas).
 Pour ce faire nous devons conserver un carré d'environ 1cm de côté comme prolongation de la jauge. Sur ce carré il n'y a pas de piste en graphite.
 Fixer la base de la jauge perpendiculairement à l'axe des 0º et la fin de la zone d'accroche des pinces en cuivre à 5mm du centre du rapporteur.
@@ -372,7 +365,7 @@ Déplacer l'autre extremité par des pas de 10º en balayant de 90º jusqu'à -9
 
 ---
 
-- Améliorer le banc de test parcequ'il est susceptibles à  induire plusieurs erreurs aléatoires lors des mesures.
+- Améliorer le banc de test parcequ'il est susceptible d'induire plusieurs erreurs aléatoires lors des mesures.
 
 - Implementer la gestion de l'encodeur rotatoire pour le calcule de l'offset et le gain numérique, ains qu'un deboucing (soit analogique ou numérique)
 
